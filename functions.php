@@ -157,3 +157,9 @@ function createPost($userId, $content) {
     }
     return false;
   }
+  function updateUserInfo($id,$displayName,$phoneNumber)
+  {
+    global $db;
+    $stmt =$db->prepare("Update users Set displayName = ?,phoneNumber = ? where id = ? ");
+    return $stmt->execute(array($displayName,$phoneNumber,$id));
+  }

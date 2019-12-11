@@ -6,7 +6,7 @@ $DB_USER     = 'root';
 $DB_PASSWORD = '';
 
 // Email config
-$EMAIL_FROM     = 'ltweb1.2019@gmail.com';
+$EMAIL_FROM     = 'mtchi99@gmail.com';
 $EMAIL_NAME     = 'LT Web 1 - 2019';
 $EMAIL_PASSWORD = 'ABCxyz123@';
 
